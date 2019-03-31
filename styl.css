@@ -1,0 +1,98 @@
+body {
+	background-color: lightblue;
+	text-align: left;
+	margin: 8px 8px 8px 8px;
+}
+/*.centered {
+	width: 40%;
+	margin: 0 30% 75px;
+}
+.centered form {
+	width: 250%;
+	margin: 0 -75%;
+}*/
+div.error {
+	color: red;
+	padding: 12px 10px;
+	font-size: 20px;
+}
+
+div.masterpiece {
+	text-align: center;
+}
+div.masterpiece img {
+	width: 50%;
+}
+
+input[type=text], input[type=password], input[type=text_err] {
+	color: black;
+	width: 40%;
+    padding: 12px 10px;
+    margin: 5px 0px;	
+	border: none;
+}
+select[name=category], input[type=file] {
+	color: black;
+    width: 40%;
+	padding: 6px 10px;
+    margin: 5px 0px;	
+	border: none;
+}
+label {
+	margin: 12px 20px;
+}
+input[type=text], input[type=password], select[name=category] {
+	background-color: #3CBC8D;
+}
+input[type=text_err] {
+	background-color: #FF7D7D;
+}
+input[type=submit] {
+	padding: 4px 20px;
+	background-color: #3CBC8D;
+	color: black;
+	border: none;
+}
+
+div.policy {
+	text-align: left;
+	width: 80%;
+	margin: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #060687;
+	position: sticky;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #070754;
+    color: white;
+}
+
+.footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #463aac;
+	color: #d6dcf5;
+	padding: 4px;
+	
+	font-size: 12px;
+	text-align: center;
+}
